@@ -1,0 +1,13 @@
+{
+  "name": "binary-to-euclidean",
+  "version": "1.0.0",
+  "description": "Returns an Euclidean rhythm pattern from a binary array",
+  "main": "index.ts",
+  "repository": "git@github.com:nailliK/binary-to-euclidean.git",
+  "author": "Killian Grant <killian@killiangrant.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
