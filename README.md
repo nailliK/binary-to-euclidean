@@ -21,7 +21,8 @@ import { binaryToEuclidean } from 'your-npm-package-name';
 const sequence = [1, 0, 1, 0, 1, 0];
 const rhythm = binaryToEuclidean(sequence);
 
-console.log(rhythm);  // { steps: 6, triggers: 3, rotation: 2 }
+console.log(rhythm);  
+// { steps: 6, triggers: 3, rotation: 2 }
 ```
 
 ## API
