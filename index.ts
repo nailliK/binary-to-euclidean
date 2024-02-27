@@ -5,7 +5,10 @@ export type EuclideanRhythm = {
 };
 
 export function binaryToEuclidean(sequence:number[]):EuclideanRhythm {
+  // Number of steps in sequence
   const steps = sequence.length
+
+  // Number of triggers in sequence
   const triggers = sequence.reduce((acc, val) => acc + val, 0)
 
   // Find the position of the first trigger
